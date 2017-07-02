@@ -1,0 +1,23 @@
+{
+  "name": "capsule9",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omiologic/capsule9.git"
+  },
+  "author": "Milo Kang <milowebmaster@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omiologic/capsule9/issues"
+  },
+  "homepage": "https://github.com/omiologic/capsule9#readme",
+  "dependencies": {
+    "bulma": "^0.4.2",
+    "node-sass": "^4.5.3"
+  }
+}

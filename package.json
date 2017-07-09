@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build-clean && npm run build-sass",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true scss/capsule9.scss css/capsule9.css --importer node_modules/node-sass-import",
+    "start": "npm run build-sass -- --watch"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,13 @@
   },
   "homepage": "https://github.com/omiologic/capsule9#readme",
   "dependencies": {
-    "bulma": "^0.4.2",
-    "node-sass": "^4.5.3"
+    "bulma": "^0.4.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "node-sass": "^4.5.3",
+    "node-sass-import": "^1.1.1",
+    "postcss-cli": "^4.1.0",
+    "rimraf": "^2.6.1"
   }
 }

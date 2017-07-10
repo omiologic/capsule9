@@ -6,5 +6,5 @@ Capsule9 is extended CSS framework based on [Bulma](https://github.com/jgthms/bu
 ## Quick install
 
 ```sh
-npm install capsule9
+npm install --save git+https://github.com/omiologic/capsule9.git
 ```

@@ -1,7 +1,7 @@
 /*! capsule9.io v0.4.2 | MIT License | github.com/omiologic/capsule9 */
 @charset "utf-8";
 
-@import "bulma";
+@import "bulma/bulma";
 @import "./components/index";
 
 
@@ -36,14 +36,3 @@
     overflow-y: auto;
   }
 }
-
-
-/* Content & content elements */
-
-.content {
-  padding: 20px 25px;
-}
-.content.content-full-width {
-  padding: 0;
-}
-
